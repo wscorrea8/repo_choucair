@@ -16,6 +16,16 @@ it('Validación registro Usuario', function(){
         cy.focused().click()
         //cy.get('#city').contains('Pereira,Risaralda,Colombia').click()
         cy.get('#zip').type(66001)
+ //cy.get('#city').first().focus()
+        //cy.get('#city').find('Pereira, Risaralda, Colombia').next()
+       
+        
+        //cy.get('#city')
+
 
   })
+
+  //cy.get('[name="city"]').dblclick('bottom',{force:true})
+       //cy.get('#city').dblclick('Pereira Risaralda,Colombia')
+        //cy.get('#city').contains('Pereira,Risaralda,Colombia')
  })
